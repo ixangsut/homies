@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+   .container {
+      @apply max-w-[1535px] xl:max-w-[1279px] lg:max-w-[1023px] md:max-w-[767px] sm:max-w-[639px];
+   }
+}
+
+@layer components {
+   .Playfair {
+      font-family: "Playfair Display", serif;
+      font-optical-sizing: auto;
+   }
+   .Inter {
+      font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-variation-settings: "slnt" 0;
+   }
+   .black{
+    color: #04050a;
+   }
+   .orange{
+    color: #b28739;
+   }
+   .Pinkfath{
+    color: #bfbfbf;
+   }
+   .brown{
+    background-color: #141412;
+   }
+   .effect1{
+    letter-spacing: 2px;
+   }
+   .dn{
+    display: none;
+   }
+   .sec1{
+          width: 250px;
+          height: 250px; 
+          background-image: ; 
+          background-size: cover; 
+          background-position: center;
+          opacity: 90%;
+   }
+   .sec2{
+          width: 250px;
+          height: 250px; 
+          background-image: ; 
+          background-size: cover; 
+          background-position: center;
+   }
+   .sec3{
+    width: 250px;
+          height: 250px; 
+          background-image: ; 
+          background-size: cover; 
+          background-position: center;
+   }
+   .g-auto-fit {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 8px;
+  justify-items: center;
+  align-content: center;
+}
+.g-auto-fit2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2px;
+  justify-items: center;
+  align-content: center;
+}
+.gap-85px{
+   gap: 85px;
+}
+
+
+.shadowblue{
+    box-shadow: 10px 10px 15px blue;
+}
+.shadowpinkk{
+    box-shadow: 8px 8px 15px pink;
+}
+.shadoworange{
+    box-shadow: 8px 8px 15px orange;
+}
+.greyfath{
+   background-color: #d9d9d9;
+}
+.w100{
+   width: 100%;
+}
+/* .wallbg{
+   background-image: url(/Images/org.png);
+} */
+
+
+
+}
+@layer utilities {
+}
